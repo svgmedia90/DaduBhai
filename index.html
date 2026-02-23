@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dadu Bhai VIP</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:40px 20px;
+}
+
+/* LOGO */
+.logo{
+    width:130px;
+    margin-bottom:20px;
+    filter:drop-shadow(0 0 15px gold);
+    animation:logoGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes logoGlow{
+    from{filter:drop-shadow(0 0 10px #FFD700);}
+    to{filter:drop-shadow(0 0 25px #FFB800);}
+}
+
+/* TITLE */
+h1{
+    font-size:48px;
+    font-weight:900;
+    background:linear-gradient(45deg,#FFD700,#FFB800,#FFF5B7);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation:glow 2s ease-in-out infinite alternate;
+    letter-spacing:3px;
+}
+
+@keyframes glow{
+    from{ text-shadow:0 0 10px #FFD700; }
+    to{ text-shadow:0 0 25px #FFB800; }
+}
+
+.tagline{
+    margin-top:10px;
+    font-size:18px;
+    color:#ccc;
+    font-weight:bold;
+}
+
+/* BOX */
+.box{
+    margin-top:40px;
+    padding:30px;
+    border-radius:20px;
+    background:linear-gradient(145deg,#111,#1c1c1c);
+    box-shadow:0 0 30px rgba(255,215,0,0.2);
+}
+
+.box p{
+    font-size:20px;
+    margin:15px 0;
+    font-weight:900;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin-top:30px;
+    padding:15px 40px;
+    font-size:20px;
+    font-weight:900;
+    text-decoration:none;
+    color:#000;
+    border-radius:50px;
+    background:linear-gradient(45deg,#FFD700,#FFB800);
+    transition:0.3s;
+}
+
+.btn img{
+    width:22px;
+}
+
+.btn:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 25px #FFD700;
+}
+
+.footer{
+    margin-top:40px;
+    font-size:14px;
+    color:#888;
+}
+
+@media(max-width:480px){
+    h1{font-size:34px;}
+    .box{padding:20px;}
+}
+</style>
+</head>
+<body>
+
+<img src="logo.png" alt="Dadu Bhai Logo" class="logo">
+
+<h1>DADU BHAI</h1>
+<div class="tagline">👑 PREMIUM CRICKET PREDICTION VIP 👑</div>
+
+<div class="box">
+    <p>🔥 HIGH ACCURACY CRICKET PREDICTIONS</p>
+    <p>📊 DEEP MATCH ANALYSIS & SMART ENTRY</p>
+    <p>💎 EXCLUSIVE VIP MATCH TIPS</p>
+    <p>⚡ FAST UPDATES • LIMITED MEMBERS ONLY</p>
+
+    <a class="btn" href="https://t.me/+JO8pqvMSqe4zYjY1" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+        JOIN DADU BHAI VIP
+    </a>
+</div>
+
+<div class="footer">
+    © 2026 Dadu Bhai VIP | Serious Earners Only
+</div>
+
+</body>
+</html>
